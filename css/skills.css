@@ -1,0 +1,75 @@
+.hold{
+    margin-left: 25px;
+    /* background-color: crimson; */
+   margin-top: 95px;
+    padding: 10px;
+    width: 70%;
+    /* background-color: antiquewhite; */
+    padding: 10px;
+    background-color: rgba(255, 252, 252, 0.967);
+}
+.tex h5 {
+    font-size: 24px;
+    color: #696969;
+    margin-bottom: 10px;
+   
+  }
+  
+  .tex h2 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    letter-spacing: 2px;
+  }
+  
+  .cen p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    margin-top: 65px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ letter-spacing: 2px;
+  
+  }
+ .slifder{
+    margin-top: 45px;
+    display: flex;
+    
+ }
+
+
+.progressbar {
+ width: 60%;
+    height: 15px; 
+    overflow: hidden;
+    background-color: rgb(91, 179, 234);
+  transition: transform 0.2s ease-in-out;
+  border-radius: 35px;
+  }
+  
+  span.progress {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background: #f0a01f;
+    transition: all .3s;
+  }
+  .per{
+margin-left: 55%;
+  
+  }
+  .box{
+    width: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    
+  }
+  .progressbar:hover{
+    background-color: rgb(176, 176, 255);
+    transform: scale(1.2);
+  z-index: 1;
+  
+  }
